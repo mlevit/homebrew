@@ -24,7 +24,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ### 2. Install everything
 
 ```bash
-brew bundle --file=https://raw.githubusercontent.com/mlevit/homebrew/main/Brewfile
+brew bundle --file=<(curl -s https://raw.githubusercontent.com/mlevit/homebrew/main/Brewfile)
 ```
 
 ### 4. Verify installation
