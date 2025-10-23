@@ -1,15 +1,31 @@
-# --- CLI Tools ---
+# --- Essential CLI Tools ---
+brew "mas"             # Mac App Store CLI
 brew "git"
 brew "python"
 brew "nvm"
+brew "wget"
 
-# --- Apps ---
-cask "discord"
-cask "google-chrome"
-cask "rectangle"
-cask "spotify"
-cask "tailscale"
+# --- Development ---
 cask "visual-studio-code"
-cask "vlc"
 cask "warp"
+
+# --- Productivity ---
+cask "rectangle"
+
+# --- Communication ---
+cask "discord"
 cask "whatsapp"
+
+# --- Browsers ---
+cask "google-chrome"
+
+# --- Media ---
+cask "spotify"
+cask "vlc"
+
+# --- Utilities ---
+cask "tailscale"
+
+# --- Mac App Store (optional) ---
+mas "Xcode", id: 497799835
+max "Perplexity", id: 6714467650
