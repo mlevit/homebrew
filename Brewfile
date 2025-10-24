@@ -27,5 +27,4 @@ cask "vlc"
 cask "tailscale"
 
 # --- Mac App Store (optional) ---
-mas "Xcode", id: 497799835
-max "Perplexity", id: 6714467650
+mas "Perplexity", id: 6714467650
